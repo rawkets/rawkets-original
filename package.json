@@ -1,0 +1,32 @@
+{
+  "name": "rawkets",
+  "version": "1.0.0",
+  "description": "The simplest and bestest multiplayer space shooter",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "forever app/client & forever app/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://robhawkes@github.com/rawkets/rawkets.git"
+  },
+  "keywords": [
+    "game",
+    "2d",
+    "javascript",
+    "space",
+    "multiplayer"
+  ],
+  "author": "Robin Hawkes <rob@rawkes.com> (http://rawkes.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawkets/rawkets/issues"
+  },
+  "homepage": "https://github.com/rawkets/rawkets#readme"
+}
