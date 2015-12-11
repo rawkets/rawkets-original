@@ -1,0 +1,2839 @@
+   [36minfo  -[39m socket.io started
+ReferenceError: self is not defined
+    at [object Object].init (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:23:2)
+    at new <anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:19:7)
+    at [object Object].init (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:48:15)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:30:8)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/vendor/EventEmitter2/lib/eventemitter2.js:310:22)
+    at [object Object].emit (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:394:38)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:255:12)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/vendor/EventEmitter2/lib/eventemitter2.js:310:22)
+    at [object Object].emit (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:394:38)
+    at Object.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:878:12)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 13496559491460917356
+27 Jan 11:31:23 - New player has connected: 13496559491460917356
+27 Jan 11:31:23 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54
+	self.maxPlayers = gameType.maxPlayers;
+                           ^
+TypeError: Cannot read property 'maxPlayers' of undefined
+    at [object Object].build (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:28)
+    at [object Object].startGameloop (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:64:7)
+    at [object Object].onHandshaking (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:35:9)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:84:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:115:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:28:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:178:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 3607642571019860563
+27 Jan 11:31:24 - New player has connected: 3607642571019860563
+27 Jan 11:31:24 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54
+	self.maxPlayers = gameType.maxPlayers;
+                           ^
+TypeError: Cannot read property 'maxPlayers' of undefined
+    at [object Object].build (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:28)
+    at [object Object].startGameloop (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:64:7)
+    at [object Object].onHandshaking (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:35:9)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:84:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:115:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:28:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:178:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 6635658441508921175
+27 Jan 11:31:24 - New player has connected: 6635658441508921175
+27 Jan 11:31:24 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54
+	self.maxPlayers = gameType.maxPlayers;
+                           ^
+TypeError: Cannot read property 'maxPlayers' of undefined
+    at [object Object].build (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:28)
+    at [object Object].startGameloop (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:64:7)
+    at [object Object].onHandshaking (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:35:9)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:84:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:115:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:28:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:178:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 9839241691986500176
+27 Jan 11:34:35 - New player has connected: 9839241691986500176
+27 Jan 11:34:35 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 11:34:35 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+ReferenceError: connection is not defined
+    at [object Object].init (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:55:38)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:36:8)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/vendor/EventEmitter2/lib/eventemitter2.js:310:22)
+    at [object Object].emit (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:394:38)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:255:12)
+    at [object Object].<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/vendor/EventEmitter2/lib/eventemitter2.js:310:22)
+    at [object Object].emit (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:394:38)
+    at Object.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/lib/hookio/hook.js:878:12)
+    at Object.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/vendor/dnode-protocol/index.js:301:16)
+    at apply (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io/vendor/dnode-protocol/index.js:156:17)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2312106061586623959
+27 Jan 11:45:46 - New player has connected: 2312106061586623959
+27 Jan 11:45:46 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 11:45:46 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 20955032061864020506
+27 Jan 11:49:48 - New player has connected: 20955032061864020506
+27 Jan 11:49:48 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 11:49:48 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 11:56:27 - Player has disconnected: 20955032061864020506
+   [36minfo  -[39m handshake authorized 11459599611415020387
+27 Jan 11:56:28 - New player has connected: 11459599611415020387
+27 Jan 11:56:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 11:56:28 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:01:44 - Player has disconnected: 11459599611415020387
+   [36minfo  -[39m handshake authorized 1246789788981264180
+27 Jan 12:01:45 - New player has connected: 1246789788981264180
+27 Jan 12:01:45 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:02:32 - Player has disconnected: 1246789788981264180
+   [36minfo  -[39m handshake authorized 599992565280848687
+27 Jan 12:02:33 - New player has connected: 599992565280848687
+27 Jan 12:02:33 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:03:09 - Player has disconnected: 599992565280848687
+   [36minfo  -[39m handshake authorized 5516822251625076543
+27 Jan 12:03:10 - New player has connected: 5516822251625076543
+27 Jan 12:03:10 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:03:40 - Player has disconnected: 5516822251625076543
+   [36minfo  -[39m handshake authorized 19183600751420117497
+27 Jan 12:03:41 - New player has connected: 19183600751420117497
+27 Jan 12:03:41 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:05:01 - Player has disconnected: 19183600751420117497
+   [36minfo  -[39m handshake authorized 217352970730266617
+27 Jan 12:05:02 - New player has connected: 217352970730266617
+27 Jan 12:05:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:05:42 - Player has disconnected: 217352970730266617
+   [36minfo  -[39m handshake authorized 12397036521654283170
+27 Jan 12:05:43 - New player has connected: 12397036521654283170
+27 Jan 12:05:43 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:06:25 - Player has disconnected: 12397036521654283170
+   [36minfo  -[39m handshake authorized 936989001324882248
+27 Jan 12:06:26 - New player has connected: 936989001324882248
+27 Jan 12:06:26 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 12:06:26 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:25:51 - Player has disconnected: 936989001324882248
+   [36minfo  -[39m handshake authorized 865227241339813448
+27 Jan 12:25:53 - New player has connected: 865227241339813448
+27 Jan 12:25:53 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:26:15 - Player has disconnected: 865227241339813448
+   [36minfo  -[39m handshake authorized 10376808891196029080
+27 Jan 12:26:16 - New player has connected: 10376808891196029080
+27 Jan 12:26:16 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:26:36 - Player has disconnected: 10376808891196029080
+   [36minfo  -[39m handshake authorized 201553300891532960
+27 Jan 12:26:37 - New player has connected: 201553300891532960
+27 Jan 12:26:37 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:26:43 - Player has disconnected: 201553300891532960
+   [36minfo  -[39m handshake authorized 12817129921135026383
+27 Jan 12:26:44 - New player has connected: 12817129921135026383
+27 Jan 12:26:44 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 12:26:44 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:28:03 - Player has disconnected: 12817129921135026383
+   [36minfo  -[39m handshake authorized 6849597711867136115
+27 Jan 12:28:04 - New player has connected: 6849597711867136115
+27 Jan 12:28:04 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 12:28:04 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 12:56:47 - Player has disconnected: 6849597711867136115
+   [36minfo  -[39m handshake authorized 8927468211761365968
+27 Jan 12:56:48 - New player has connected: 8927468211761365968
+27 Jan 12:56:48 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 12:56:48 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 8665127861525971571
+27 Jan 12:56:56 - New player has connected: 8665127861525971571
+27 Jan 12:56:56 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 12:56:56 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2493081111547200646
+27 Jan 14:06:44 - New player has connected: 2493081111547200646
+27 Jan 14:06:44 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:45 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = state;
+                   ^
+ReferenceError: state is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1786070380353378183
+27 Jan 14:06:45 - New player has connected: 1786070380353378183
+27 Jan 14:06:45 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:45 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = state;
+                   ^
+ReferenceError: state is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1994951128540523475
+27 Jan 14:06:46 - New player has connected: 1994951128540523475
+27 Jan 14:06:46 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:46 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = state;
+                   ^
+ReferenceError: state is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1073319871480436681
+27 Jan 14:06:55 - New player has connected: 1073319871480436681
+27 Jan 14:06:55 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:55 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = self.state;
+                   ^
+ReferenceError: self is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 14544654471476811095
+27 Jan 14:06:56 - New player has connected: 14544654471476811095
+27 Jan 14:06:56 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:56 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = self.state;
+                   ^
+ReferenceError: self is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 15941417011377931362
+27 Jan 14:06:56 - New player has connected: 15941417011377931362
+27 Jan 14:06:56 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:57 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = self.state;
+                   ^
+ReferenceError: self is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1492896118113364373
+27 Jan 14:06:57 - New player has connected: 1492896118113364373
+27 Jan 14:06:57 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:58 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = self.state;
+                   ^
+ReferenceError: self is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 4078129961903371136
+27 Jan 14:06:58 - New player has connected: 4078129961903371136
+27 Jan 14:06:58 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:06:58 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69
+	worldData.state = self.state;
+                   ^
+ReferenceError: self is not defined
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:69:20)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 4050517411628065216
+27 Jan 14:07:09 - New player has connected: 4050517411628065216
+27 Jan 14:07:09 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:07:09 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:07:12 - Player has disconnected: 4050517411628065216
+   [36minfo  -[39m handshake authorized 998818481663063330
+27 Jan 14:07:12 - New player has connected: 998818481663063330
+27 Jan 14:07:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:07:12 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 8027143561537174667
+27 Jan 14:09:04 - New player has connected: 8027143561537174667
+27 Jan 14:09:04 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:09:49 - Player has disconnected: 8027143561537174667
+   [36minfo  -[39m handshake authorized 55288453483974488
+27 Jan 14:09:50 - New player has connected: 55288453483974488
+27 Jan 14:09:50 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:11:29 - Player has disconnected: 55288453483974488
+   [36minfo  -[39m handshake authorized 4741598922038454468
+27 Jan 14:11:30 - New player has connected: 4741598922038454468
+27 Jan 14:11:30 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:11:30 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 19964679821063498687
+27 Jan 14:12:20 - New player has connected: 19964679821063498687
+27 Jan 14:12:20 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:12:20 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:13:48 - Player has disconnected: 19964679821063498687
+   [36minfo  -[39m handshake authorized 1323837721255552526
+27 Jan 14:13:49 - New player has connected: 1323837721255552526
+27 Jan 14:13:49 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:13:49 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 12411769442057939070
+27 Jan 14:16:29 - New player has connected: 12411769442057939070
+27 Jan 14:16:29 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:16:29 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:16:39 - Player has disconnected: 12411769442057939070
+   [36minfo  -[39m handshake authorized 7595839031491255105
+27 Jan 14:16:40 - New player has connected: 7595839031491255105
+27 Jan 14:16:40 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:16:40 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:17:34 - Player has disconnected: 7595839031491255105
+   [36minfo  -[39m handshake authorized 1567534611965896849
+27 Jan 14:17:34 - New player has connected: 1567534611965896849
+27 Jan 14:17:34 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:17:34 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 14:18:05 - Player has disconnected: 1567534611965896849
+   [36minfo  -[39m handshake authorized 21217713111169861754
+27 Jan 14:18:06 - New player has connected: 21217713111169861754
+27 Jan 14:18:06 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:18:06 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 20738565001329314147
+27 Jan 14:19:40 - New player has connected: 20738565001329314147
+27 Jan 14:19:40 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:19:40 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1914978531711676535
+27 Jan 14:20:47 - New player has connected: 1914978531711676535
+27 Jan 14:20:47 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:20:47 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+{ players: [], state: { roundState: undefined } }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1113460997957990640
+27 Jan 14:21:24 - New player has connected: 1113460997957990640
+27 Jan 14:21:24 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 14:21:24 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 17:11:45 - Player has disconnected: 1113460997957990640
+   [36minfo  -[39m handshake authorized 177600396390823556
+27 Jan 17:11:47 - New player has connected: 177600396390823556
+27 Jan 17:11:47 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 17:11:47 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 26703399615493336
+27 Jan 19:14:48 - New player has connected: 26703399615493336
+27 Jan 19:14:48 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:14:48 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:114
+	self.connection.broadcastEach(args, function(client) {
+ ^
+ReferenceError: self is not defined
+    at [object Object].onPlayerJoin (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:114:2)
+    at [object Object].addPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:105:7)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:86:14)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 7148749868613117
+27 Jan 19:14:48 - New player has connected: 7148749868613117
+27 Jan 19:14:48 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:14:48 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:114
+	self.connection.broadcastEach(args, function(client) {
+ ^
+ReferenceError: self is not defined
+    at [object Object].onPlayerJoin (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:114:2)
+    at [object Object].addPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:105:7)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:86:14)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 15105789681418945792
+27 Jan 19:14:49 - New player has connected: 15105789681418945792
+27 Jan 19:14:49 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 19452013791126818031
+27 Jan 19:15:22 - New player has connected: 19452013791126818031
+27 Jan 19:15:22 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:15:22 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:118
+			return this.connection.messagePriorities.PASS;
+                         ^
+TypeError: Cannot read property 'messagePriorities' of undefined
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:118:26
+    at [object Object].broadcastEach (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:227:15)
+    at [object Object].onPlayerJoin (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:116:18)
+    at [object Object].addPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:105:7)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:86:14)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 78956110352596059
+27 Jan 19:15:23 - New player has connected: 78956110352596059
+27 Jan 19:15:23 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:15:23 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:118
+			return this.connection.messagePriorities.PASS;
+                         ^
+TypeError: Cannot read property 'messagePriorities' of undefined
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:118:26
+    at [object Object].broadcastEach (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:227:15)
+    at [object Object].onPlayerJoin (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:116:18)
+    at [object Object].addPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:105:7)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:86:14)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 3355334541957692219
+27 Jan 19:16:12 - New player has connected: 3355334541957692219
+27 Jan 19:16:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:16:12 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:67
+		players.push(this.players[id].getRepresentation());
+                                ^
+TypeError: Object [object Object] has no method 'getRepresentation'
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:67:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1732402045756544640
+27 Jan 19:16:13 - New player has connected: 1732402045756544640
+27 Jan 19:16:13 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:16:13 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:67
+		players.push(this.players[id].getRepresentation());
+                                ^
+TypeError: Object [object Object] has no method 'getRepresentation'
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:67:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:89:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:88:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:61:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:175:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+    at WebSocket.onMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:387:20)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 8803026601616633106
+27 Jan 19:17:58 - New player has connected: 8803026601616633106
+27 Jan 19:17:58 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:17:58 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 3520054391123167258
+27 Jan 19:19:00 - New player has connected: 3520054391123167258
+27 Jan 19:19:00 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:19:00 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 19:19:01 - Player has disconnected: 3520054391123167258
+   [36minfo  -[39m handshake authorized 21211109721191685295
+27 Jan 19:19:02 - New player has connected: 21211109721191685295
+27 Jan 19:19:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:19:02 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 159756740852316788
+27 Jan 19:21:40 - New player has connected: 159756740852316788
+27 Jan 19:21:40 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:21:40 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 7061334041659982977
+27 Jan 19:34:04 - New player has connected: 7061334041659982977
+27 Jan 19:34:04 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:34:04 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 19:35:48 - Player has disconnected: 7061334041659982977
+   [36minfo  -[39m handshake authorized 416967775330759185
+27 Jan 19:35:49 - New player has connected: 416967775330759185
+27 Jan 19:35:49 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:35:49 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 19:36:09 - Player has disconnected: 416967775330759185
+   [36minfo  -[39m handshake authorized 284828933422372047
+27 Jan 19:36:09 - New player has connected: 284828933422372047
+27 Jan 19:36:09 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:36:10 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 19:36:25 - Player has disconnected: 284828933422372047
+   [36minfo  -[39m handshake authorized 892585111891818802
+27 Jan 19:36:26 - New player has connected: 892585111891818802
+27 Jan 19:36:26 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:36:26 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 19:36:34 - Player has disconnected: 892585111891818802
+   [36minfo  -[39m handshake authorized 10790696221547711907
+27 Jan 19:36:34 - New player has connected: 10790696221547711907
+27 Jan 19:36:34 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:36:34 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 818861894788412743
+27 Jan 19:59:59 - New player has connected: 818861894788412743
+27 Jan 19:59:59 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 19:59:59 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:134
+	self.onPlayerLeft(player);
+      ^
+TypeError: Object [object Object] has no method 'onPlayerLeft'
+    at [object Object].removePlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:134:7)
+    at [object Object].onDisconnected (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:100:15)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:95:10)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:163:11)
+    at Socket.$emit (events.js:67:17)
+    at Socket.onDisconnect (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/socket.js:153:10)
+    at SocketNamespace.handleDisconnect (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:229:46)
+    at Manager.onClientDisconnect (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:471:27)
+    at WebSocket.end (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:467:20)
+    at Parser.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transports/websocket/hybi-16.js:53:10)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 10021029311676848356
+27 Jan 20:00:04 - New player has connected: 10021029311676848356
+27 Jan 20:00:04 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 20:00:04 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 10165395761257809679
+27 Jan 20:04:15 - New player has connected: 10165395761257809679
+27 Jan 20:04:15 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 20:04:15 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:124
+	for (var id in self.connection.connections) {
+                ^
+ReferenceError: self is not defined
+    at [object Object].stopGameloop (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:124:17)
+    at [object Object].onDisconnected (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:106:9)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:95:10)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:163:11)
+    at Socket.$emit (events.js:67:17)
+    at Socket.onDisconnect (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/socket.js:153:10)
+    at SocketNamespace.handleDisconnect (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:229:46)
+    at Manager.onClientDisconnect (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:471:27)
+    at WebSocket.end (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transport.js:467:20)
+    at Parser.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/transports/websocket/hybi-16.js:53:10)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 8718586161251699702
+27 Jan 20:05:12 - New player has connected: 8718586161251699702
+27 Jan 20:05:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 20:05:12 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 20:05:17 - Player has disconnected: 8718586161251699702
+   [36minfo  -[39m handshake authorized 7887479711534934902
+27 Jan 20:05:18 - New player has connected: 7887479711534934902
+27 Jan 20:05:18 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 20:05:18 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+27 Jan 20:05:20 - Player has disconnected: 7887479711534934902
+   [36minfo  -[39m handshake authorized 2354573692123749842
+27 Jan 20:05:21 - New player has connected: 2354573692123749842
+27 Jan 20:05:21 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+27 Jan 20:05:21 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1510777737922620472
+28 Jan 12:29:14 - New player has connected: 1510777737922620472
+28 Jan 12:29:14 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:29:14 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:29:23 - Player has disconnected: 1510777737922620472
+   [36minfo  -[39m handshake authorized 1560091877817495261
+28 Jan 12:29:24 - New player has connected: 1560091877817495261
+28 Jan 12:29:24 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:29:24 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:29:55 - Player has disconnected: 1560091877817495261
+   [36minfo  -[39m handshake authorized 1873687756826300519
+28 Jan 12:29:56 - New player has connected: 1873687756826300519
+28 Jan 12:29:56 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:29:56 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:30:29 - Player has disconnected: 1873687756826300519
+   [36minfo  -[39m handshake authorized 1948704757282022820
+28 Jan 12:30:30 - New player has connected: 1948704757282022820
+28 Jan 12:30:30 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:30:30 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:30:36 - Player has disconnected: 1948704757282022820
+   [36minfo  -[39m handshake authorized 11426133881903522054
+28 Jan 12:30:37 - New player has connected: 11426133881903522054
+28 Jan 12:30:37 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:30:37 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:31:23 - Player has disconnected: 11426133881903522054
+   [36minfo  -[39m handshake authorized 1994728141913812090
+28 Jan 12:31:24 - New player has connected: 1994728141913812090
+28 Jan 12:31:24 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:31:24 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:32:58 - Player has disconnected: 1994728141913812090
+   [36minfo  -[39m handshake authorized 910530224554720495
+28 Jan 12:32:59 - New player has connected: 910530224554720495
+28 Jan 12:32:59 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:32:59 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:33:35 - Player has disconnected: 910530224554720495
+   [36minfo  -[39m handshake authorized 5106680812010033095
+28 Jan 12:33:36 - New player has connected: 5106680812010033095
+28 Jan 12:33:36 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:33:36 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:35:01 - Player has disconnected: 5106680812010033095
+   [36minfo  -[39m handshake authorized 1441389471636357496
+28 Jan 12:35:02 - New player has connected: 1441389471636357496
+28 Jan 12:35:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:35:02 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:36:11 - Player has disconnected: 1441389471636357496
+   [36minfo  -[39m handshake authorized 1917160578181822710
+28 Jan 12:36:12 - New player has connected: 1917160578181822710
+28 Jan 12:36:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:36:12 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:36:26 - Player has disconnected: 1917160578181822710
+   [36minfo  -[39m handshake authorized 278608036265027619
+28 Jan 12:36:28 - New player has connected: 278608036265027619
+28 Jan 12:36:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:36:28 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:45:53 - Player has disconnected: 278608036265027619
+   [36minfo  -[39m handshake authorized 4743953082138571318
+28 Jan 12:45:54 - New player has connected: 4743953082138571318
+28 Jan 12:45:54 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:45:54 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:52:56 - Player has disconnected: 4743953082138571318
+   [36minfo  -[39m handshake authorized 1233015708894015687
+28 Jan 12:52:57 - New player has connected: 1233015708894015687
+28 Jan 12:52:57 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:52:57 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:53:24 - Player has disconnected: 1233015708894015687
+   [36minfo  -[39m handshake authorized 2061117341876448490
+28 Jan 12:53:25 - New player has connected: 2061117341876448490
+28 Jan 12:53:25 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:53:25 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:54:01 - Player has disconnected: 2061117341876448490
+   [36minfo  -[39m handshake authorized 7390477671432423504
+28 Jan 12:54:02 - New player has connected: 7390477671432423504
+28 Jan 12:54:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:54:02 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:54:27 - Player has disconnected: 7390477671432423504
+   [36minfo  -[39m handshake authorized 119953983361140058
+28 Jan 12:54:29 - New player has connected: 119953983361140058
+28 Jan 12:54:29 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:54:29 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+28 Jan 12:55:31 - Player has disconnected: 119953983361140058
+   [36minfo  -[39m handshake authorized 14107143451572981421
+28 Jan 12:55:32 - New player has connected: 14107143451572981421
+28 Jan 12:55:32 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+28 Jan 12:55:33 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 6931089351544339492
+   [36minfo  -[39m handshake authorized 1111456558920298468
+29 Jan 17:55:03 - New player has connected: 6931089351544339492
+29 Jan 17:55:03 - Player has disconnected: 6931089351544339492
+29 Jan 17:55:03 - Player has disconnected: 1111456558920298468
+29 Jan 17:55:03 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:55:03 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37
+		player.pos = self.entity.pos;
+                          ^
+TypeError: Cannot read property 'pos' of null
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37:27)
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:81:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:94:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:89:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:165:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 21084156151233286376
+29 Jan 17:55:03 - New player has connected: 21084156151233286376
+29 Jan 17:55:03 - { typeIndex: 0,
+  type: { name: 'ping', args: [ 'timestamp' ] },
+  args: {} }
+   [36minfo  -[39m transport end
+29 Jan 17:55:07 - Player has disconnected: 21084156151233286376
+   [36minfo  -[39m handshake authorized 453796799581735629
+29 Jan 17:55:07 - New player has connected: 453796799581735629
+29 Jan 17:55:07 - { typeIndex: 0,
+  type: { name: 'ping', args: [ 'timestamp' ] },
+  args: {} }
+   [36minfo  -[39m transport end
+29 Jan 17:55:15 - Player has disconnected: 453796799581735629
+   [36minfo  -[39m handshake authorized 11584682231919022661
+29 Jan 17:55:15 - New player has connected: 11584682231919022661
+29 Jan 17:55:15 - { typeIndex: 0,
+  type: { name: 'ping', args: [ 'timestamp' ] },
+  args: {} }
+   [36minfo  -[39m transport end
+29 Jan 17:55:22 - Player has disconnected: 11584682231919022661
+   [36minfo  -[39m handshake authorized 5517417792111381059
+29 Jan 17:55:22 - New player has connected: 5517417792111381059
+29 Jan 17:55:22 - { typeIndex: 0,
+  type: { name: 'ping', args: [ 'timestamp' ] },
+  args: {} }
+   [36minfo  -[39m transport end
+29 Jan 17:55:25 - Player has disconnected: 5517417792111381059
+   [36minfo  -[39m handshake authorized 4540241751170663588
+29 Jan 17:55:26 - New player has connected: 4540241751170663588
+29 Jan 17:55:26 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2118117147467786248
+29 Jan 17:55:26 - New player has connected: 2118117147467786248
+29 Jan 17:55:26 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1061293187184495414
+29 Jan 17:55:27 - New player has connected: 1061293187184495414
+29 Jan 17:55:27 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:55:27 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37
+		player.pos = self.entity.pos;
+                          ^
+TypeError: Cannot read property 'pos' of null
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37:27)
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:81:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:94:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:89:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:165:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 13071635061437157171
+29 Jan 17:55:27 - New player has connected: 13071635061437157171
+29 Jan 17:55:27 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:55:27 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37
+		player.pos = self.entity.pos;
+                          ^
+TypeError: Cannot read property 'pos' of null
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37:27)
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:81:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:94:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:89:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:165:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1687888839156520562
+29 Jan 17:55:28 - New player has connected: 1687888839156520562
+29 Jan 17:55:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1298638881710138819
+29 Jan 17:55:28 - New player has connected: 1298638881710138819
+29 Jan 17:55:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 276888577123596302
+29 Jan 17:55:29 - New player has connected: 276888577123596302
+29 Jan 17:55:29 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 44844847423115259
+29 Jan 17:57:34 - New player has connected: 44844847423115259
+29 Jan 17:57:34 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:57:34 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37
+		player.pos = self.entity.pos;
+                          ^
+TypeError: Cannot read property 'pos' of null
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37:27)
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:81:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:94:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:89:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:165:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 21115046722096665864
+29 Jan 17:57:35 - New player has connected: 21115046722096665864
+29 Jan 17:57:35 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:57:35 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37
+		player.pos = self.entity.pos;
+                          ^
+TypeError: Cannot read property 'pos' of null
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Player.js:37:27)
+    at [object Object].getRepresentation (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:81:33)
+    at [object Object].onJoined (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:94:81)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:89:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:165:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1073280294144445493
+29 Jan 17:57:36 - New player has connected: 1073280294144445493
+29 Jan 17:57:36 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 20077369541834239364
+29 Jan 17:58:31 - New player has connected: 20077369541834239364
+29 Jan 17:58:31 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:58:31 - { roundStates: { WARMUP: 1, STARTING: 2, RUNNING: 3, FINISHED: 4 },
+  connection: 
+   { messagePriorities: { HIGH: 2, LOW: 1, PASS: 0 },
+     connectionStates: { CONNECTED: 1, HANDSHAKING: 2, JOINED: 3, DISCONNECTED: 4 },
+     connection: 
+      { server: [Object],
+        namespaces: [Object],
+        sockets: [Object],
+        _events: [Object],
+        settings: [Object],
+        handshaken: [Object],
+        connected: [Object],
+        open: [Object],
+        closed: {},
+        rooms: [Object],
+        roomClients: [Object],
+        oldListeners: [Object],
+        gc: [Object] },
+     connections: { '20077369541834239364': [Object] },
+     connectionCount: 1,
+     maxConnections: 1,
+     messageTypes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     typeIndexes: 
+      { ping: 0,
+        connect: 1,
+        worldData: 2,
+        join: 3,
+        worldState: 4,
+        playerJoined: 5,
+        playerLeft: 6,
+        playerState: 7 },
+     debug: true,
+     processMessage: [Function],
+     onHandshaking: [Function],
+     onJoined: [Function],
+     onDisconnected: [Function] },
+  roundState: 1,
+  maxPlayers: 10,
+  playerCount: 0,
+  players: {},
+  entityCount: 0,
+  entities: {},
+  dimensions: { width: 1000, height: 1000 } }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 100723248218532195
+29 Jan 17:58:32 - New player has connected: 100723248218532195
+29 Jan 17:58:32 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 17:58:32 - { roundStates: { WARMUP: 1, STARTING: 2, RUNNING: 3, FINISHED: 4 },
+  connection: 
+   { messagePriorities: { HIGH: 2, LOW: 1, PASS: 0 },
+     connectionStates: { CONNECTED: 1, HANDSHAKING: 2, JOINED: 3, DISCONNECTED: 4 },
+     connection: 
+      { server: [Object],
+        namespaces: [Object],
+        sockets: [Object],
+        _events: [Object],
+        settings: [Object],
+        handshaken: [Object],
+        connected: [Object],
+        open: [Object],
+        closed: {},
+        rooms: [Object],
+        roomClients: [Object],
+        oldListeners: [Object],
+        gc: [Object] },
+     connections: { '100723248218532195': [Object] },
+     connectionCount: 1,
+     maxConnections: 1,
+     messageTypes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     typeIndexes: 
+      { ping: 0,
+        connect: 1,
+        worldData: 2,
+        join: 3,
+        worldState: 4,
+        playerJoined: 5,
+        playerLeft: 6,
+        playerState: 7 },
+     debug: true,
+     processMessage: [Function],
+     onHandshaking: [Function],
+     onJoined: [Function],
+     onDisconnected: [Function] },
+  roundState: 1,
+  maxPlayers: 10,
+  playerCount: 0,
+  players: {},
+  entityCount: 0,
+  entities: {},
+  dimensions: { width: 1000, height: 1000 } }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 276165630774599819
+29 Jan 18:01:32 - New player has connected: 276165630774599819
+29 Jan 18:01:32 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:01:32 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:01:32 - { roundStates: { WARMUP: 1, STARTING: 2, RUNNING: 3, FINISHED: 4 },
+  connection: 
+   { messagePriorities: { HIGH: 2, LOW: 1, PASS: 0 },
+     connectionStates: { CONNECTED: 1, HANDSHAKING: 2, JOINED: 3, DISCONNECTED: 4 },
+     connection: 
+      { server: [Object],
+        namespaces: [Object],
+        sockets: [Object],
+        _events: [Object],
+        settings: [Object],
+        handshaken: [Object],
+        connected: [Object],
+        open: [Object],
+        closed: {},
+        rooms: [Object],
+        roomClients: [Object],
+        oldListeners: [Object],
+        gc: [Object] },
+     connections: { '276165630774599819': [Object] },
+     connectionCount: 1,
+     maxConnections: 1,
+     messageTypes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     typeIndexes: 
+      { ping: 0,
+        connect: 1,
+        worldData: 2,
+        join: 3,
+        worldState: 4,
+        playerJoined: 5,
+        playerLeft: 6,
+        playerState: 7 },
+     debug: true,
+     processMessage: [Function],
+     onHandshaking: [Function],
+     onJoined: [Function],
+     onDisconnected: [Function] },
+  roundState: 1,
+  maxPlayers: 10,
+  playerCount: 1,
+  players: 
+   { '276165630774599819': 
+      { actionTypes: [Object],
+        id: '276165630774599819',
+        respawnTime: 1327860092695,
+        score: 0,
+        dead: 0,
+        entity: null,
+        action: 0 } },
+  entityCount: 0,
+  entities: {},
+  dimensions: { width: 1000, height: 1000 } }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:55:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 669000681743015812
+29 Jan 18:01:33 - New player has connected: 669000681743015812
+29 Jan 18:01:33 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:01:33 - { roundStates: { WARMUP: 1, STARTING: 2, RUNNING: 3, FINISHED: 4 },
+  connection: 
+   { messagePriorities: { HIGH: 2, LOW: 1, PASS: 0 },
+     connectionStates: { CONNECTED: 1, HANDSHAKING: 2, JOINED: 3, DISCONNECTED: 4 },
+     connection: 
+      { server: [Object],
+        namespaces: [Object],
+        sockets: [Object],
+        _events: [Object],
+        settings: [Object],
+        handshaken: [Object],
+        connected: [Object],
+        open: [Object],
+        closed: {},
+        rooms: [Object],
+        roomClients: [Object],
+        oldListeners: [Object],
+        gc: [Object] },
+     connections: { '669000681743015812': [Object] },
+     connectionCount: 1,
+     maxConnections: 1,
+     messageTypes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     typeIndexes: 
+      { ping: 0,
+        connect: 1,
+        worldData: 2,
+        join: 3,
+        worldState: 4,
+        playerJoined: 5,
+        playerLeft: 6,
+        playerState: 7 },
+     debug: true,
+     processMessage: [Function],
+     onHandshaking: [Function],
+     onJoined: [Function],
+     onDisconnected: [Function] },
+  roundState: 1,
+  maxPlayers: 10,
+  playerCount: 0,
+  players: {},
+  entityCount: 0,
+  entities: {},
+  dimensions: { width: 1000, height: 1000 } }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244
+	self.forEachplayer(function(player) {
+      ^
+TypeError: Object [object Object] has no method 'forEachplayer'
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:55:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 5781185422109547704
+29 Jan 18:02:04 - New player has connected: 5781185422109547704
+29 Jan 18:02:04 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:187
+	for (var connectionId in connections) {
+                          ^
+ReferenceError: connections is not defined
+    at [object Object].sendUpdates (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:187:27)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:146:7)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 711904074793229219
+29 Jan 18:02:05 - New player has connected: 711904074793229219
+29 Jan 18:02:05 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:187
+	for (var connectionId in connections) {
+                          ^
+ReferenceError: connections is not defined
+    at [object Object].sendUpdates (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:187:27)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:146:7)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 472345818242209437
+29 Jan 18:02:48 - New player has connected: 472345818242209437
+29 Jan 18:02:48 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:02:48 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 18:02:50 - Player has disconnected: 472345818242209437
+   [36minfo  -[39m handshake authorized 3432850154978298
+29 Jan 18:02:51 - New player has connected: 3432850154978298
+29 Jan 18:02:51 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:02:51 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 5536631311327607481
+29 Jan 18:03:03 - Player has disconnected: 5536631311327607481
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 107137064034637139
+29 Jan 18:03:34 - New player has connected: 107137064034637139
+   [36minfo  -[39m handshake authorized 784888771243187192
+29 Jan 18:03:34 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:03:34 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:213
+	var rawket = new EntityRawket({pos: spawnPos, player: player});
+                  ^
+ReferenceError: EntityRawket is not defined
+    at [object Object].spawnPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:213:19)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:246:9
+    at [object Object].forEachPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:195:3)
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:243:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:54:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 17079922581459172762
+29 Jan 18:03:34 - New player has connected: 17079922581459172762
+29 Jan 18:03:34 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:03:34 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2101497920359026667
+29 Jan 18:04:12 - New player has connected: 2101497920359026667
+29 Jan 18:04:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:04:12 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:213
+				client.queue(message);
+           ^
+TypeError: Property 'queue' of object #<Socket> is not a function
+    at [object Object].sendUpdates (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:213:12)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:146:7)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2095630356909811683
+29 Jan 18:04:13 - New player has connected: 2095630356909811683
+29 Jan 18:04:13 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:04:13 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:255
+			rawket.set(rawket.actionTypes.THRUST, player.is(player.actionTypes.THRUST))
+                    ^
+TypeError: Cannot read property 'actionTypes' of null
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:255:21
+    at [object Object].forEachPlayer (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:196:3)
+    at [object Object].updateState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:244:7)
+    at [object Object].update (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/World.js:55:7)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:144:13)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1910383606870846514
+29 Jan 18:04:14 - New player has connected: 1910383606870846514
+29 Jan 18:04:14 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:04:14 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 536310745742656165
+29 Jan 18:07:06 - New player has connected: 536310745742656165
+29 Jan 18:07:06 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:07:06 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:213
+				client.queue(message);
+           ^
+TypeError: Property 'queue' of object #<Socket> is not a function
+    at [object Object].sendUpdates (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:213:12)
+    at [object Object].onGameloopTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:146:7)
+    at [object Object].onTick (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:120:8)
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:34:4)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 7386902241775869882
+29 Jan 18:07:07 - New player has connected: 7386902241775869882
+29 Jan 18:07:07 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:07:07 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1493865500146180759
+29 Jan 18:09:31 - New player has connected: 1493865500146180759
+29 Jan 18:09:31 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:09:31 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 65297444013998959
+29 Jan 18:10:21 - New player has connected: 65297444013998959
+29 Jan 18:10:21 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:10:21 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1986174110218527364
+   [36minfo  -[39m handshake authorized 18491128871156877374
+29 Jan 18:10:55 - New player has connected: 1986174110218527364
+29 Jan 18:10:55 - New player has connected: 18491128871156877374
+29 Jan 18:10:55 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:10:55 - Gameloop tick
+29 Jan 18:10:55 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:10:55 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:10:55 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 93894457174899044
+29 Jan 18:11:38 - New player has connected: 93894457174899044
+29 Jan 18:11:38 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:11:38 - Gameloop tick
+29 Jan 18:11:38 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 1496069148998395719
+29 Jan 18:11:41 - New player has connected: 1496069148998395719
+29 Jan 18:11:41 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:11:41 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 19708623781593429776
+   [36minfo  -[39m handshake authorized 372308816965397521
+29 Jan 18:12:13 - New player has connected: 19708623781593429776
+29 Jan 18:12:13 - New player has connected: 372308816965397521
+29 Jan 18:12:13 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:12:13 - New loop
+29 Jan 18:12:13 - Gameloop tick
+29 Jan 18:12:13 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:12:13 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:12:13 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1683892646168194797
+29 Jan 18:12:28 - New player has connected: 1683892646168194797
+   [36minfo  -[39m handshake authorized 16524304011532820123
+29 Jan 18:12:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:12:28 - New loop
+29 Jan 18:12:28 - Gameloop tick
+29 Jan 18:12:28 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:12:28 - New player has connected: 16524304011532820123
+29 Jan 18:12:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:12:28 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 10305775512066675271
+   [36minfo  -[39m handshake authorized 8558801121392275381
+29 Jan 18:12:46 - New player has connected: 10305775512066675271
+29 Jan 18:12:46 - New player has connected: 8558801121392275381
+29 Jan 18:12:46 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:12:46 - New loop
+29 Jan 18:12:46 - Gameloop tick
+29 Jan 18:12:46 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:12:46 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:12:46 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 14761228391286211521
+   [36minfo  -[39m handshake authorized 11714432202027271950
+29 Jan 18:14:46 - New player has connected: 14761228391286211521
+29 Jan 18:14:46 - New player has connected: 11714432202027271950
+29 Jan 18:14:46 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:36
+	})(loop);
+    ^
+ReferenceError: loop is not defined
+    at [object Object].start (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:36:5)
+    at [object Object].startGameloop (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:122:16)
+    at [object Object].onHandshaking (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:71:9)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:85:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:164:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 14713559311127368445
+29 Jan 18:14:47 - New player has connected: 14713559311127368445
+29 Jan 18:14:47 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:36
+	})(loop);
+    ^
+ReferenceError: loop is not defined
+    at [object Object].start (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:36:5)
+    at [object Object].startGameloop (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:122:16)
+    at [object Object].onHandshaking (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:71:9)
+    at Socket.setState (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:85:10)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:164:11)
+    at [object Object].processMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/rawkets-server.js:63:8)
+    at Socket.<anonymous> (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Connection.js:172:9)
+    at Socket.$emit (events.js:67:17)
+    at SocketNamespace.handlePacket (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/socket.io/lib/manager.js:459:38)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 51210951738113414
+29 Jan 18:15:03 - New player has connected: 51210951738113414
+29 Jan 18:15:03 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:15:03 - Gameloop tick
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33
+				loop();
+    ^
+ReferenceError: loop is not defined
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1454300907309448825
+29 Jan 18:15:03 - New player has connected: 1454300907309448825
+29 Jan 18:15:03 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:15:03 - Gameloop tick
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33
+				loop();
+    ^
+ReferenceError: loop is not defined
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 360029649905751147
+29 Jan 18:15:41 - New player has connected: 360029649905751147
+29 Jan 18:15:41 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:41 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:42 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+29 Jan 18:15:43 - Gameloop tick
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 44057708555103351
+29 Jan 18:16:29 - New player has connected: 44057708555103351
+29 Jan 18:16:29 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:16:29 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 113540571311945363
+29 Jan 18:18:17 - New player has connected: 113540571311945363
+29 Jan 18:18:17 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:18:17 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1274036345266613821
+29 Jan 18:18:33 - New player has connected: 1274036345266613821
+29 Jan 18:18:33 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:18:33 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 211909478710245601
+29 Jan 18:18:58 - New player has connected: 211909478710245601
+29 Jan 18:18:58 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:18:58 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1846598690435575809
+29 Jan 18:19:20 - New player has connected: 1846598690435575809
+29 Jan 18:19:20 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:19:20 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1004417733446713108
+29 Jan 18:20:05 - New player has connected: 1004417733446713108
+29 Jan 18:20:05 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:20:05 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 18421015372066898490
+29 Jan 18:20:32 - New player has connected: 18421015372066898490
+29 Jan 18:20:32 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:20:32 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 2006001346942370561
+29 Jan 18:20:34 - New player has connected: 2006001346942370561
+29 Jan 18:20:34 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:20:34 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 14542572991563311395
+29 Jan 18:26:45 - New player has connected: 14542572991563311395
+29 Jan 18:26:45 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:26:45 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:26:45 - 7,14542572991563311395
+29 Jan 18:26:45 - 7,14542572991563311395
+29 Jan 18:26:45 - 7,14542572991563311395
+29 Jan 18:26:45 - 7,14542572991563311395
+29 Jan 18:26:45 - 7,14542572991563311395
+29 Jan 18:26:46 - 7,14542572991563311395
+29 Jan 18:26:46 - 7,14542572991563311395
+29 Jan 18:26:46 - 7,14542572991563311395
+29 Jan 18:26:46 - 7,14542572991563311395
+29 Jan 18:26:46 - 7,14542572991563311395
+29 Jan 18:26:46 - 7,14542572991563311395
+29 Jan 18:26:47 - 7,14542572991563311395
+29 Jan 18:26:47 - 7,14542572991563311395
+29 Jan 18:26:47 - 7,14542572991563311395
+29 Jan 18:26:47 - 7,14542572991563311395
+29 Jan 18:26:47 - 7,14542572991563311395
+29 Jan 18:26:47 - 7,14542572991563311395
+29 Jan 18:26:48 - 7,14542572991563311395
+29 Jan 18:26:48 - 7,14542572991563311395
+29 Jan 18:26:48 - 7,14542572991563311395
+29 Jan 18:26:48 - 7,14542572991563311395
+29 Jan 18:26:48 - 7,14542572991563311395
+29 Jan 18:26:48 - 7,14542572991563311395
+29 Jan 18:26:49 - 7,14542572991563311395
+29 Jan 18:26:49 - 7,14542572991563311395
+29 Jan 18:26:49 - 7,14542572991563311395
+29 Jan 18:26:49 - 7,14542572991563311395
+29 Jan 18:26:49 - 7,14542572991563311395
+29 Jan 18:26:49 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,14542572991563311395
+   [36minfo  -[39m handshake authorized 670219893432736702
+29 Jan 18:26:50 - New player has connected: 670219893432736702
+29 Jan 18:26:50 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:26:50 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:26:50 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,670219893432736702
+29 Jan 18:26:50 - 7,14542572991563311395
+29 Jan 18:26:50 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:51 - 7,14542572991563311395
+29 Jan 18:26:51 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:52 - 7,14542572991563311395
+29 Jan 18:26:52 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:53 - 7,14542572991563311395
+29 Jan 18:26:53 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:54 - 7,14542572991563311395
+29 Jan 18:26:54 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:55 - 7,14542572991563311395
+29 Jan 18:26:55 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:56 - 7,14542572991563311395
+29 Jan 18:26:56 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:57 - 7,14542572991563311395
+29 Jan 18:26:57 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:58 - 7,14542572991563311395
+29 Jan 18:26:58 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+29 Jan 18:26:59 - 7,14542572991563311395
+29 Jan 18:26:59 - 7,670219893432736702
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 228151936278130116
+29 Jan 18:28:07 - New player has connected: 228151936278130116
+29 Jan 18:28:07 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:28:07 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:28:07 - 7,228151936278130116,1004.9344,1000,0,1
+29 Jan 18:28:07 - 7,228151936278130116,1032.0951999999997,1000,0,1
+29 Jan 18:28:08 - 7,228151936278130116,1081.8543999999997,1000,0,1
+29 Jan 18:28:08 - 7,228151936278130116,1155.9343999999996,1000,0,1
+29 Jan 18:28:08 - 7,228151936278130116,1252.4215999999997,1000,0,1
+29 Jan 18:28:08 - 7,228151936278130116,1371.2679999999996,1000,0,1
+29 Jan 18:28:08 - 7,228151936278130116,1513.8607999999997,1000,0,1
+29 Jan 18:28:08 - 7,228151936278130116,1679.5736,1000,0,1
+29 Jan 18:28:09 - 7,228151936278130116,1864.896,1000,0,1
+29 Jan 18:28:09 - 7,228151936278130116,2079.056,1000,0,1
+29 Jan 18:28:09 - 7,228151936278130116,2313.9951999999994,1000,0,1
+29 Jan 18:28:09 - 7,228151936278130116,2568.8975999999993,1000,0,1
+29 Jan 18:28:09 - 7,228151936278130116,2846.3783999999987,1000,0,1
+29 Jan 18:28:09 - 7,228151936278130116,3146.439199999998,1000,0,1
+29 Jan 18:28:10 - 7,228151936278130116,3471.0599999999977,1000,0,1
+29 Jan 18:28:10 - 7,228151936278130116,3818.5303999999974,1000,0,1
+29 Jan 18:28:10 - 7,228151936278130116,4184.346399999997,1000,0,1
+29 Jan 18:28:10 - 7,228151936278130116,4579.627199999994,1000,0,1
+29 Jan 18:28:10 - 7,228151936278130116,4992.987199999993,1000,0,1
+29 Jan 18:28:10 - 7,228151936278130116,5434.235999999993,1000,0,1
+29 Jan 18:28:11 - 7,228151936278130116,5898.605599999991,1000,0,1
+29 Jan 18:28:11 - 7,228151936278130116,6383.1687999999895,1000,0,1
+29 Jan 18:28:11 - 7,228151936278130116,6893.643999999989,1000,0,1
+29 Jan 18:28:11 - 7,228151936278130116,7427.239999999988,1000,0,1
+29 Jan 18:28:11 - 7,228151936278130116,7983.953599999985,1000,0,1
+29 Jan 18:28:11 - 7,228151936278130116,8556.845599999986,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,9155.922399999983,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,9774.10799999998,1000,0,1
+   [36minfo  -[39m handshake authorized 18802622572075676904
+29 Jan 18:28:12 - New player has connected: 18802622572075676904
+29 Jan 18:28:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:28:12 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:28:12 - 7,228151936278130116,10418.74719999998,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1000,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,10418.74719999998,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1000,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,11082.223199999979,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1010.1575999999999,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,11082.223199999979,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1010.1575999999999,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,11776.570399999979,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1043.4088,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,11776.570399999979,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1043.4088,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,12476.916799999975,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1098.2144,1000,0,1
+29 Jan 18:28:12 - 7,228151936278130116,12476.916799999975,1000,0,1
+29 Jan 18:28:12 - 7,18802622572075676904,1098.2144,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,13221.372799999976,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1177.6856000000002,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,13221.372799999976,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1177.6856000000002,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,13975.571199999977,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1278.5656000000004,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,13975.571199999977,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1278.5656000000004,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,14757.032799999979,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1402.8200000000004,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,14757.032799999979,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1402.8200000000004,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,15561.34159999998,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1549.9216000000008,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,15561.34159999998,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1549.9216000000008,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,16383.546399999981,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1718.808000000001,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,16383.546399999981,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1718.808000000001,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,17238.509599999983,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1912.675200000001,1000,0,1
+29 Jan 18:28:13 - 7,228151936278130116,17238.509599999983,1000,0,1
+29 Jan 18:28:13 - 7,18802622572075676904,1912.675200000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,18106.141599999984,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2126.988800000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,18106.141599999984,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2126.988800000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,19007.070399999986,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2366.821600000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,19007.070399999986,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2366.821600000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,19925.623199999987,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2628.167200000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,19925.623199999987,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2628.167200000001,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,20855.764799999994,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2908.8792,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,20855.764799999994,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,2908.8792,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,21819.74559999999,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,3215.6527999999994,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,21819.74559999999,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,3215.6527999999994,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,22830.182399999994,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,3553.327199999999,1000,0,1
+29 Jan 18:28:14 - 7,228151936278130116,22830.182399999994,1000,0,1
+29 Jan 18:28:14 - 7,18802622572075676904,3553.327199999999,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,23840.403199999997,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,3906.340799999998,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,23840.403199999997,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,3906.340799999998,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,24879.645600000003,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,4284.487199999997,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,24879.645600000003,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,4284.487199999997,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,25942.00720000001,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,4685.752799999996,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,25942.00720000001,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,4685.752799999996,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,27014.596000000016,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,5105.023199999995,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,27014.596000000016,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,5105.023199999995,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,28122.92720000002,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,5552.258399999994,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,28122.92720000002,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,5552.258399999994,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,29261.096000000027,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,6025.4423999999935,1000,0,1
+29 Jan 18:28:15 - 7,228151936278130116,29261.096000000027,1000,0,1
+29 Jan 18:28:15 - 7,18802622572075676904,6025.4423999999935,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,30436.36640000003,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,6527.9503999999915,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,30436.36640000003,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,6527.9503999999915,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,31586.63920000004,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,7032.68239999999,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,31586.63920000004,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,7032.68239999999,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,32780.324000000044,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,7569.159999999989,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,32780.324000000044,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,7569.159999999989,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,34004.11920000005,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,8131.859199999989,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,34004.11920000005,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,8131.859199999989,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,35243.63920000006,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,8714.171999999986,1000,0,1
+29 Jan 18:28:16 - 7,228151936278130116,35243.63920000006,1000,0,1
+29 Jan 18:28:16 - 7,18802622572075676904,8714.171999999986,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,36513.53920000007,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,9322.975999999984,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,36513.53920000007,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,9322.975999999984,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,37806.55680000008,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,9954.89759999998,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,37806.55680000008,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,9954.89759999998,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,39122.69440000008,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,10609.939199999979,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,39122.69440000008,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,10609.939199999979,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,40469.8904000001,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,11292.150399999977,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,40469.8904000001,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,11292.150399999977,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,41840.4824000001,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,11997.757599999975,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,41840.4824000001,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,11997.757599999975,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,43226.25200000012,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,12722.431199999972,1000,0,1
+29 Jan 18:28:17 - 7,228151936278130116,43226.25200000012,1000,0,1
+29 Jan 18:28:17 - 7,18802622572075676904,12722.431199999972,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,44902.27920000013,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,13612.92079999997,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,44902.27920000013,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,13612.92079999997,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,46330.132000000136,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,14383.56639999997,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,46330.132000000136,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,14383.56639999997,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,47798.12400000014,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,15186.573599999972,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,47798.12400000014,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,15186.573599999972,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,49298.292800000156,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,16017.868799999973,1000,0,1
+29 Jan 18:28:18 - 7,228151936278130116,49298.292800000156,1000,0,1
+29 Jan 18:28:18 - 7,18802622572075676904,16017.868799999973,1000,0,1
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 150715240477652964
+29 Jan 18:31:02 - New player has connected: 150715240477652964
+29 Jan 18:31:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:31:02 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:31:02 - 7|150715240477652964|1003.5359999999998|1000|0|1
+29 Jan 18:31:02 - 7|150715240477652964|1027.9471999999996|1000|0|1
+29 Jan 18:31:02 - 7|150715240477652964|1074.7983999999997|1000|0|1
+29 Jan 18:31:03 - 7|150715240477652964|1144.2288|1000|0|1
+29 Jan 18:31:03 - 7|150715240477652964|1237.4544000000003|1000|0|1
+29 Jan 18:31:03 - 7|150715240477652964|1351.5680000000004|1000|0|1
+29 Jan 18:31:03 - 7|150715240477652964|1487.9928000000011|1000|0|1
+29 Jan 18:31:03 - 7|150715240477652964|1646.7288000000015|1000|0|1
+29 Jan 18:31:03 - 7|150715240477652964|1826.6320000000014|1000|0|1
+29 Jan 18:31:04 - 7|150715240477652964|2032.4120000000014|1000|0|1
+29 Jan 18:31:04 - 7|150715240477652964|2262.4544000000014|1000|0|1
+29 Jan 18:31:04 - 7|150715240477652964|2514.067200000001|1000|0|1
+29 Jan 18:31:04 - 7|150715240477652964|2788.5296000000003|1000|0|1
+29 Jan 18:31:04 - 7|150715240477652964|3082.2016000000003|1000|0|1
+29 Jan 18:31:04 - 7|150715240477652964|3405.999199999999|1000|0|1
+29 Jan 18:31:05 - 7|150715240477652964|3742.7391999999986|1000|0|1
+29 Jan 18:31:05 - 7|150715240477652964|4105.967199999997|1000|0|1
+29 Jan 18:31:05 - 7|150715240477652964|4503.568799999996|1000|0|1
+29 Jan 18:31:05 - 7|150715240477652964|4917.620799999995|1000|0|1
+29 Jan 18:31:05 - 7|150715240477652964|5349.527999999995|1000|0|1
+29 Jan 18:31:05 - 7|150715240477652964|5806.780799999993|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|6292.686399999991|1000|0|1
+   [36minfo  -[39m handshake authorized 110398321320156568
+29 Jan 18:31:06 - 7|150715240477652964|6786.79359999999|1000|0|1
+29 Jan 18:31:06 - New player has connected: 110398321320156568
+29 Jan 18:31:06 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:31:06 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:31:06 - 7|150715240477652964|7306.115999999989|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1000.2176|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|7306.115999999989|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1000.2176|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|7851.051999999989|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1014.8111999999999|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|7851.051999999989|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1014.8111999999999|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|8415.129599999987|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1051.7032|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|8415.129599999987|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1051.7032|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|9019.383199999987|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1112.9872|1000|0|1
+29 Jan 18:31:06 - 7|150715240477652964|9019.383199999987|1000|0|1
+29 Jan 18:31:06 - 7|110398321320156568|1112.9872|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|9636.171999999988|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1196.2768|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|9636.171999999988|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1196.2768|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|10279.654399999989|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1303.1032|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|10279.654399999989|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1303.1032|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|10950.239999999989|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1433.8760000000002|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|10950.239999999989|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1433.8760000000002|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|11640.098399999992|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1587.0784|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|11640.098399999992|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1587.0784|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|12353.078399999991|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1763.4024000000004|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|12353.078399999991|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1763.4024000000004|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|13080.396799999991|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1960.3784000000003|1000|0|1
+29 Jan 18:31:07 - 7|150715240477652964|13080.396799999991|1000|0|1
+29 Jan 18:31:07 - 7|110398321320156568|1960.3784000000003|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|13839.34319999999|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2182.6688|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|13839.34319999999|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2182.6688|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|14612.088799999994|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2425.071999999999|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|14612.088799999994|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2425.071999999999|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|15421.799199999992|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2694.9695999999994|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|15421.799199999992|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2694.9695999999994|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|16235.175199999992|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2981.159999999999|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|16235.175199999992|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|2981.159999999999|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|17075.926399999993|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|3291.568799999998|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|17075.926399999993|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|3291.568799999998|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|17986.0776|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|3642.9663999999975|1000|0|1
+29 Jan 18:31:08 - 7|150715240477652964|17986.0776|1000|0|1
+29 Jan 18:31:08 - 7|110398321320156568|3642.9663999999975|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|18878.5384|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|4001.9279999999967|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|18878.5384|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|4001.9279999999967|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|19793.848|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|4383.738399999996|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|19793.848|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|4383.738399999996|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|20743.229600000002|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|4793.307199999995|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|20743.229600000002|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|4793.307199999995|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|21704.50800000001|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|5221.086399999995|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|21704.50800000001|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|5221.086399999995|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|22682.751200000013|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|5668.987199999993|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|22682.751200000013|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|5668.987199999993|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|23695.611200000018|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|6145.191199999992|1000|0|1
+29 Jan 18:31:09 - 7|150715240477652964|23695.611200000018|1000|0|1
+29 Jan 18:31:09 - 7|110398321320156568|6145.191199999992|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|24737.74480000002|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|6647.5119999999915|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|24737.74480000002|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|6647.5119999999915|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|25790.687200000022|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|7166.95519999999|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|25790.687200000022|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|7166.95519999999|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|26860.052800000027|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|7705.978399999989|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|26860.052800000027|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|7705.978399999989|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|27971.68080000003|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|8277.793599999988|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|27971.68080000003|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|8277.793599999988|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|29086.608800000038|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|8862.379199999987|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|29086.608800000038|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|8862.379199999987|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|30251.445600000043|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|9484.246399999989|1000|0|1
+29 Jan 18:31:10 - 7|150715240477652964|30251.445600000043|1000|0|1
+29 Jan 18:31:10 - 7|110398321320156568|9484.246399999989|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|31412.067200000052|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|10114.525599999988|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|31412.067200000052|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|10114.525599999988|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|32616.58240000006|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|10779.227999999988|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|32616.58240000006|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|10779.227999999988|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|33830.007200000065|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|11459.153599999989|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|33830.007200000065|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|11459.153599999989|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|35058.90640000007|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|12157.710399999989|1000|0|1
+29 Jan 18:31:11 - 7|150715240477652964|35058.90640000007|1000|0|1
+29 Jan 18:31:11 - 7|110398321320156568|12157.710399999989|1000|0|1
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1599509596792068424
+29 Jan 18:31:33 - New player has connected: 1599509596792068424
+29 Jan 18:31:33 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:31:33 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:31:33 - 7|1599509596792068424|1002.2575999999999|1000|0|1
+29 Jan 18:31:33 - 7|1599509596792068424|1024.4632|1000|0|1
+29 Jan 18:31:33 - 7|1599509596792068424|1071.6576|1000|0|1
+29 Jan 18:31:33 - 7|1599509596792068424|1139.8783999999998|1000|0|1
+29 Jan 18:31:33 - 7|1599509596792068424|1231.88|1000|0|1
+29 Jan 18:31:34 - 7|1599509596792068424|1348.4808|1000|0|1
+29 Jan 18:31:34 - 7|1599509596792068424|1485.2456000000002|1000|0|1
+29 Jan 18:31:34 - 7|1599509596792068424|1644.5864000000006|1000|0|1
+29 Jan 18:31:34 - 7|1599509596792068424|1824.2240000000006|1000|0|1
+29 Jan 18:31:34 - 7|1599509596792068424|2029.7320000000004|1000|0|1
+29 Jan 18:31:34 - 7|1599509596792068424|2256.6792|1000|0|1
+29 Jan 18:31:35 - 7|1599509596792068424|2506.2047999999995|1000|0|1
+29 Jan 18:31:35 - 7|1599509596792068424|2783.3527999999997|1000|0|1
+29 Jan 18:31:35 - 7|1599509596792068424|3085.711999999999|1000|0|1
+29 Jan 18:31:35 - 7|1599509596792068424|3401.9623999999985|1000|0|1
+29 Jan 18:31:35 - 7|1599509596792068424|3742.611999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|4108.063999999997|1000|0|1
+   [36minfo  -[39m handshake authorized 14176204351998753975
+29 Jan 18:31:36 - New player has connected: 14176204351998753975
+29 Jan 18:31:36 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:31:36 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:31:36 - 5
+29 Jan 18:31:36 - 7|1599509596792068424|4496.363199999995|1000|0|1,7|14176204351998753975|1000|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|4496.363199999995|1000|0|1,7|14176204351998753975|1000|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|4905.019199999994|1000|0|1,7|14176204351998753975|1012.3103999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|4905.019199999994|1000|0|1,7|14176204351998753975|1012.3103999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|5344.139199999993|1000|0|1,7|14176204351998753975|1048.0071999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|5344.139199999993|1000|0|1,7|14176204351998753975|1048.0071999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|5792.829599999993|1000|0|1,7|14176204351998753975|1105.0703999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|5792.829599999993|1000|0|1,7|14176204351998753975|1105.0703999999998|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|6275.151999999993|1000|0|1,7|14176204351998753975|1186.3288|1000|0|1
+29 Jan 18:31:36 - 7|1599509596792068424|6275.151999999993|1000|0|1,7|14176204351998753975|1186.3288|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|6777.559199999992|1000|0|1,7|14176204351998753975|1290.0312|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|6777.559199999992|1000|0|1,7|14176204351998753975|1290.0312|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|7312.32559999999|1000|0|1,7|14176204351998753975|1419.0151999999998|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|7312.32559999999|1000|0|1,7|14176204351998753975|1419.0151999999998|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|7857.53199999999|1000|0|1,7|14176204351998753975|1567.8759999999997|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|7857.53199999999|1000|0|1,7|14176204351998753975|1567.8759999999997|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|8425.317599999988|1000|0|1,7|14176204351998753975|1739.3159999999998|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|8425.317599999988|1000|0|1,7|14176204351998753975|1739.3159999999998|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|9019.256799999988|1000|0|1,7|14176204351998753975|1934.5503999999996|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|9019.256799999988|1000|0|1,7|14176204351998753975|1934.5503999999996|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|9632.334399999987|1000|0|1,7|14176204351998753975|2151.2823999999996|1000|0|1
+29 Jan 18:31:37 - 7|1599509596792068424|9632.334399999987|1000|0|1,7|14176204351998753975|2151.2823999999996|1000|0|1
+29 Jan 18:31:38 - 7|1599509596792068424|10267.991199999984|1000|0|1,7|14176204351998753975|2390.5935999999997|1000|0|1
+29 Jan 18:31:38 - 7|1599509596792068424|10267.991199999984|1000|0|1,7|14176204351998753975|2390.5935999999997|1000|0|1
+29 Jan 18:31:38 - 7|1599509596792068424|10938.163999999984|1000|0|1,7|14176204351998753975|2657.3431999999993|1000|0|1
+29 Jan 18:31:38 - 7|1599509596792068424|10938.163999999984|1000|0|1,7|14176204351998753975|2657.3431999999993|1000|0|1
+29 Jan 18:31:38 - 7|1599509596792068424|11615.267999999985|1000|0|1,7|14176204351998753975|2940.460799999999|1000|0|1
+29 Jan 18:31:38 - 7|1599509596792068424|11615.267999999985|1000|0|1,7|14176204351998753975|2940.460799999999|1000|0|1
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 20989307311713236629
+29 Jan 18:34:12 - New player has connected: 20989307311713236629
+29 Jan 18:34:12 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1954811756992079511
+29 Jan 18:36:28 - New player has connected: 1954811756992079511
+29 Jan 18:36:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 16089023721555688934
+29 Jan 18:36:47 - New player has connected: 16089023721555688934
+29 Jan 18:36:47 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 18:36:49 - Player has disconnected: 16089023721555688934
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2622489391731742489
+29 Jan 18:36:50 - New player has connected: 2622489391731742489
+29 Jan 18:36:50 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 18:37:07 - Player has disconnected: 2622489391731742489
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 17662210451138587045
+29 Jan 18:37:08 - New player has connected: 17662210451138587045
+29 Jan 18:37:08 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:37:08 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:37:08 - 7|17662210451138587045|1003.7424|1000|0|1
+29 Jan 18:37:08 - 7|17662210451138587045|1028.5616|1000|0|1
+29 Jan 18:37:08 - 7|17662210451138587045|1076.8423999999998|1000|0|1
+29 Jan 18:37:08 - 7|17662210451138587045|1147.0783999999996|1000|0|1
+29 Jan 18:37:09 - 7|17662210451138587045|1241.7343999999996|1000|0|1
+29 Jan 18:37:09 - 7|17662210451138587045|1358.2823999999994|1000|0|1
+29 Jan 18:37:09 - 7|17662210451138587045|1495.9095999999995|1000|0|1
+29 Jan 18:37:09 - 7|17662210451138587045|1658.9039999999993|1000|0|1
+29 Jan 18:37:09 - 7|17662210451138587045|1843.8615999999997|1000|0|1
+29 Jan 18:37:09 - 7|17662210451138587045|2052.9615999999996|1000|0|1
+29 Jan 18:37:10 - 7|17662210451138587045|2280.9024|1000|0|1
+29 Jan 18:37:10 - 7|17662210451138587045|2532.7128|1000|0|1
+29 Jan 18:37:10 - 7|17662210451138587045|2810.4919999999993|1000|0|1
+29 Jan 18:37:10 - 7|17662210451138587045|3107.7279999999987|1000|0|1
+29 Jan 18:37:10 - 7|17662210451138587045|3433.4415999999983|1000|0|1
+29 Jan 18:37:10 - 7|17662210451138587045|3780.4439999999977|1000|0|1
+29 Jan 18:37:11 - 7|17662210451138587045|4148.329599999997|1000|0|1
+29 Jan 18:37:11 - 7|17662210451138587045|4536.691199999997|1000|0|1
+29 Jan 18:37:11 - 7|17662210451138587045|4952.645599999996|1000|0|1
+29 Jan 18:37:11 - 7|17662210451138587045|5389.076799999995|1000|0|1
+29 Jan 18:37:11 - 7|17662210451138587045|5848.356799999993|1000|0|1
+29 Jan 18:37:11 - 7|17662210451138587045|6333.399999999992|1000|0|1
+29 Jan 18:37:12 - 7|17662210451138587045|6844.61279999999|1000|0|1
+29 Jan 18:37:12 - 7|17662210451138587045|7369.659199999989|1000|0|1
+29 Jan 18:37:12 - 7|17662210451138587045|7917.283999999987|1000|0|1
+29 Jan 18:37:12 - 7|17662210451138587045|8484.034399999984|1000|0|1
+29 Jan 18:37:12 - 7|17662210451138587045|9083.861599999986|1000|0|1
+29 Jan 18:37:13 - 7|17662210451138587045|9714.259199999986|1000|0|1
+29 Jan 18:37:13 - 7|17662210451138587045|10414.719199999987|1000|0|1
+29 Jan 18:37:13 - 7|17662210451138587045|11082.071999999987|1000|0|1
+29 Jan 18:37:13 - 7|17662210451138587045|11772.274399999986|1000|0|1
+29 Jan 18:37:13 - 7|17662210451138587045|12485.324799999986|1000|0|1
+29 Jan 18:37:13 - 7|17662210451138587045|13221.223199999986|1000|0|1
+29 Jan 18:37:14 - 7|17662210451138587045|13993.624799999983|1000|0|1
+29 Jan 18:37:14 - 7|17662210451138587045|14770.93919999998|1000|0|1
+29 Jan 18:37:14 - 7|17662210451138587045|15575.655999999983|1000|0|1
+29 Jan 18:37:14 - 7|17662210451138587045|16388.351199999983|1000|0|1
+29 Jan 18:37:14 - 7|17662210451138587045|17243.450399999987|1000|0|1
+29 Jan 18:37:14 - 7|17662210451138587045|18105.991199999986|1000|0|1
+29 Jan 18:37:15 - 7|17662210451138587045|18996.201599999986|1000|0|1
+29 Jan 18:37:15 - 7|17662210451138587045|19898.00479999999|1000|0|1
+29 Jan 18:37:15 - 7|17662210451138587045|20827.479199999994|1000|0|1
+29 Jan 18:37:15 - 7|17662210451138587045|21808.0688|1000|0|1
+29 Jan 18:37:15 - 7|17662210451138587045|22788.73120000001|1000|0|1
+29 Jan 18:37:15 - 7|17662210451138587045|23804.038400000016|1000|0|1
+29 Jan 18:37:16 - 7|17662210451138587045|24860.975200000015|1000|0|1
+29 Jan 18:37:16 - 7|17662210451138587045|25904.00960000002|1000|0|1
+29 Jan 18:37:16 - 7|17662210451138587045|27001.55920000003|1000|0|1
+29 Jan 18:37:16 - 7|17662210451138587045|28096.46160000003|1000|0|1
+29 Jan 18:37:16 - 7|17662210451138587045|29247.511200000034|1000|0|1
+29 Jan 18:37:16 - 7|17662210451138587045|30395.09520000004|1000|0|1
+29 Jan 18:37:17 - 7|17662210451138587045|31558.540800000043|1000|0|1
+29 Jan 18:37:17 - 7|17662210451138587045|32787.299200000045|1000|0|1
+29 Jan 18:37:17 - 7|17662210451138587045|33996.710400000055|1000|0|1
+29 Jan 18:37:17 - 7|17662210451138587045|35236.09520000006|1000|0|1
+   [36minfo  -[39m handshake authorized 17208938222064777204
+29 Jan 18:37:17 - 7|17662210451138587045|36490.79920000007|1000|0|1
+29 Jan 18:37:17 - New player has connected: 17208938222064777204
+29 Jan 18:37:17 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:37:17 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+29 Jan 18:37:17 - 5
+29 Jan 18:37:17 - 7|17662210451138587045|37768.08240000007|1000|0|1,7|17208938222064777204|1004.6927999999999|1000|0|1
+29 Jan 18:37:17 - 7|17662210451138587045|37768.08240000007|1000|0|1,7|17208938222064777204|1004.6927999999999|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|39075.742400000076|1000|0|1,7|17208938222064777204|1030.792|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|39075.742400000076|1000|0|1,7|17208938222064777204|1030.792|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|40430.05360000009|1000|0|1,7|17208938222064777204|1080.7928|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|40430.05360000009|1000|0|1,7|17208938222064777204|1080.7928|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|41791.888000000086|1000|0|1,7|17208938222064777204|1153.4832000000004|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|41791.888000000086|1000|0|1,7|17208938222064777204|1153.4832000000004|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|43217.88800000009|1000|0|1,7|17208938222064777204|1252.4232000000002|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|43217.88800000009|1000|0|1,7|17208938222064777204|1252.4232000000002|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|44634.99200000011|1000|0|1,7|17208938222064777204|1372.8000000000004|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|44634.99200000011|1000|0|1,7|17208938222064777204|1372.8000000000004|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|46033.06960000011|1000|0|1,7|17208938222064777204|1512.0664000000004|1000|0|1
+29 Jan 18:37:18 - 7|17662210451138587045|46033.06960000011|1000|0|1,7|17208938222064777204|1512.0664000000004|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|47496.27360000013|1000|0|1,7|17208938222064777204|1678.5432000000003|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|47496.27360000013|1000|0|1,7|17208938222064777204|1678.5432000000003|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|48974.11600000014|1000|0|1,7|17208938222064777204|1867.2416000000003|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|48974.11600000014|1000|0|1,7|17208938222064777204|1867.2416000000003|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|50466.18800000016|1000|0|1,7|17208938222064777204|2077.7528|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|50466.18800000016|1000|0|1,7|17208938222064777204|2077.7528|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|51990.13520000018|1000|0|1,7|17208938222064777204|2312.5560000000005|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|51990.13520000018|1000|0|1,7|17208938222064777204|2312.5560000000005|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|53564.68880000019|1000|0|1,7|17208938222064777204|2575.216000000001|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|53564.68880000019|1000|0|1,7|17208938222064777204|2575.216000000001|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|55125.98480000021|1000|0|1,7|17208938222064777204|2854.951200000001|1000|0|1
+29 Jan 18:37:19 - 7|17662210451138587045|55125.98480000021|1000|0|1,7|17208938222064777204|2854.951200000001|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|56700.69440000022|1000|0|1,7|17208938222064777204|3155.6832|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|56700.69440000022|1000|0|1,7|17208938222064777204|3155.6832|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|58307.551200000235|1000|0|1,7|17208938222064777204|3480.9791999999998|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|58307.551200000235|1000|0|1,7|17208938222064777204|3480.9791999999998|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|59927.55440000025|1000|0|1,7|17208938222064777204|3827.0047999999992|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|59927.55440000025|1000|0|1,7|17208938222064777204|3827.0047999999992|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|61570.13680000026|1000|0|1,7|17208938222064777204|4195.609599999999|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|61570.13680000026|1000|0|1,7|17208938222064777204|4195.609599999999|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|63235.29840000028|1000|0|1,7|17208938222064777204|4586.793599999996|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|63235.29840000028|1000|0|1,7|17208938222064777204|4586.793599999996|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|64933.1456000003|1000|0|1,7|17208938222064777204|5003.079999999996|1000|0|1
+29 Jan 18:37:20 - 7|17662210451138587045|64933.1456000003|1000|0|1,7|17208938222064777204|5003.079999999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|66643.60000000031|1000|0|1,7|17208938222064777204|5439.556799999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|66643.60000000031|1000|0|1,7|17208938222064777204|5439.556799999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|68418.14160000034|1000|0|1,7|17208938222064777204|5909.787999999997|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|68418.14160000034|1000|0|1,7|17208938222064777204|5909.787999999997|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|70174.29200000035|1000|0|1,7|17208938222064777204|6391.960799999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|70174.29200000035|1000|0|1,7|17208938222064777204|6391.960799999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|71953.02160000037|1000|0|1,7|17208938222064777204|6896.712799999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|71953.02160000037|1000|0|1,7|17208938222064777204|6896.712799999996|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|73765.11360000039|1000|0|1,7|17208938222064777204|7427.243999999995|1000|0|1
+29 Jan 18:37:21 - 7|17662210451138587045|73765.11360000039|1000|0|1,7|17208938222064777204|7427.243999999995|1000|0|1
+29 Jan 18:37:22 - 7|17662210451138587045|75621.8920000004|1000|0|1,7|17208938222064777204|7987.295199999993|1000|0|1
+29 Jan 18:37:22 - 7|17662210451138587045|75621.8920000004|1000|0|1,7|17208938222064777204|7987.295199999993|1000|0|1
+29 Jan 18:37:22 - 7|17662210451138587045|77479.95200000043|1000|0|1,7|17208938222064777204|8563.794399999993|1000|0|1
+29 Jan 18:37:22 - 7|17662210451138587045|77479.95200000043|1000|0|1,7|17208938222064777204|8563.794399999993|1000|0|1
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1036426211428031792
+29 Jan 18:48:19 - New player has connected: 1036426211428031792
+29 Jan 18:48:19 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:48:19 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 12560897191514660713
+29 Jan 18:48:22 - New player has connected: 12560897191514660713
+29 Jan 18:48:22 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:48:22 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 640479881404963696
+29 Jan 18:49:43 - New player has connected: 640479881404963696
+29 Jan 18:49:43 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:49:43 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 1194672766929127428
+29 Jan 18:49:53 - New player has connected: 1194672766929127428
+29 Jan 18:49:53 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:49:53 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 11600968151997961767
+29 Jan 18:52:14 - New player has connected: 11600968151997961767
+29 Jan 18:52:14 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:52:14 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 723731648833865945
+29 Jan 18:52:18 - New player has connected: 723731648833865945
+29 Jan 18:52:18 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:52:18 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 53652266260614359
+29 Jan 18:52:36 - New player has connected: 53652266260614359
+29 Jan 18:52:36 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:52:36 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 1758223942230483165
+29 Jan 18:52:36 - New player has connected: 1758223942230483165
+29 Jan 18:52:36 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:52:36 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 18:52:38 - Player has disconnected: 53652266260614359
+   [36minfo  -[39m handshake authorized 865796718166545881
+29 Jan 18:52:38 - New player has connected: 865796718166545881
+29 Jan 18:52:38 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:52:38 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1725106946316506551
+29 Jan 18:56:05 - New player has connected: 1725106946316506551
+29 Jan 18:56:05 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:56:05 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 13839713591706645882
+29 Jan 18:56:08 - New player has connected: 13839713591706645882
+29 Jan 18:56:08 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:56:08 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 7575887081121966578
+29 Jan 18:56:27 - New player has connected: 7575887081121966578
+29 Jan 18:56:27 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 18:56:27 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 1324020591302396394
+29 Jan 18:56:28 - New player has connected: 1324020591302396394
+29 Jan 18:56:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1545833207235495653
+29 Jan 18:59:45 - New player has connected: 1545833207235495653
+29 Jan 18:59:45 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 19:00:02 - Player has disconnected: 1545833207235495653
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 7820934001341229755
+29 Jan 19:00:03 - New player has connected: 7820934001341229755
+29 Jan 19:00:03 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 19:00:18 - Player has disconnected: 7820934001341229755
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 219865942034133542
+29 Jan 19:00:18 - New player has connected: 219865942034133542
+29 Jan 19:00:18 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 819903802116185961
+29 Jan 19:02:19 - New player has connected: 819903802116185961
+29 Jan 19:02:19 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 19:02:19 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 19:04:27 - Player has disconnected: 219865942034133542
+   [36minfo  -[39m handshake authorized 550428375140121133
+29 Jan 19:04:28 - New player has connected: 550428375140121133
+29 Jan 19:04:28 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 19:04:28 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 Jan 19:04:31 - Player has disconnected: 819903802116185961
+   [36minfo  -[39m handshake authorized 6774891301664613190
+29 Jan 19:04:31 - New player has connected: 6774891301664613190
+29 Jan 19:04:31 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 19:04:31 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 112493400398166322
+29 Jan 19:05:14 - New player has connected: 112493400398166322
+29 Jan 19:05:14 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 19:05:14 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 1544940631078582099
+29 Jan 19:05:16 - New player has connected: 1544940631078582099
+29 Jan 19:05:16 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 Jan 19:05:16 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2844107131598360648
+30 Jan 00:10:04 - New player has connected: 2844107131598360648
+30 Jan 00:10:04 - { typeIndex: 0,
+  type: { name: 'ping', args: [ 'timestamp' ] },
+  args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:10:07 - Player has disconnected: 2844107131598360648
+   [36minfo  -[39m handshake authorized 15777614971657342454
+30 Jan 00:10:07 - New player has connected: 15777614971657342454
+30 Jan 00:10:07 - { typeIndex: 0,
+  type: { name: 'ping', args: [ 'timestamp' ] },
+  args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:10:45 - Player has disconnected: 15777614971657342454
+   [36minfo  -[39m handshake authorized 1147878442881131168
+30 Jan 00:10:46 - New player has connected: 1147878442881131168
+30 Jan 00:10:46 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:11:23 - Player has disconnected: 1147878442881131168
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 2127468729673820219
+30 Jan 00:11:26 - New player has connected: 2127468729673820219
+30 Jan 00:11:26 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:11:26 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:11:47 - Player has disconnected: 2127468729673820219
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 866642519972532384
+30 Jan 00:11:55 - New player has connected: 866642519972532384
+30 Jan 00:11:55 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:11:55 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:11:57 - Player has disconnected: 866642519972532384
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 14367420101038371226
+30 Jan 00:12:01 - New player has connected: 14367420101038371226
+30 Jan 00:12:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:12:02 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 685070619435760776
+30 Jan 00:18:41 - New player has connected: 685070619435760776
+30 Jan 00:18:41 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:18:41 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:19:12 - Player has disconnected: 14367420101038371226
+   [36minfo  -[39m handshake authorized 2069457771687206798
+30 Jan 00:19:13 - New player has connected: 2069457771687206798
+30 Jan 00:19:13 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:19:13 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:19:18 - Player has disconnected: 685070619435760776
+   [36minfo  -[39m handshake authorized 20638931219341333
+30 Jan 00:19:18 - New player has connected: 20638931219341333
+30 Jan 00:19:18 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:19:18 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:19:26 - Player has disconnected: 20638931219341333
+   [36minfo  -[39m handshake authorized 2818010121548998229
+30 Jan 00:19:27 - New player has connected: 2818010121548998229
+30 Jan 00:19:27 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:19:27 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+30 Jan 00:19:30 - Player has disconnected: 2818010121548998229
+   [36minfo  -[39m handshake authorized 1398012463402057543
+30 Jan 00:19:31 - New player has connected: 1398012463402057543
+30 Jan 00:19:31 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:19:31 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1292683907745124463
+30 Jan 00:20:17 - New player has connected: 1292683907745124463
+30 Jan 00:20:17 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:20:17 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m handshake authorized 6392734491621387529
+30 Jan 00:20:20 - New player has connected: 6392734491621387529
+30 Jan 00:20:21 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+30 Jan 00:20:21 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1456120511616791354
+6 Feb 13:00:22 - New player has connected: 1456120511616791354
+6 Feb 13:00:22 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 13:00:22 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 13:00:32 - Player has disconnected: 1456120511616791354
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 11392530202051447547
+6 Feb 13:00:57 - New player has connected: 11392530202051447547
+6 Feb 13:00:57 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 13:00:57 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 13:01:10 - Player has disconnected: 11392530202051447547
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1598618508819669651
+6 Feb 16:19:50 - New player has connected: 1598618508819669651
+6 Feb 16:19:50 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:19:50 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:19:55 - Player has disconnected: 1598618508819669651
+
+/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28
+		self.onTick(self.tick, self.currentTime, timeDelta);
+       ^
+TypeError: Property 'onTick' of object [object Object] is not a function
+    at /Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:28:8
+    at Object._onTimeout (/Users/Rob/Archive/R/Rawkets/_Game/node_modules/hook.io-rawkets-server/lib/Loop.js:33:5)
+    at Timer.ontimeout (timers.js:84:39)
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 884018268156467747
+6 Feb 16:22:56 - New player has connected: 884018268156467747
+6 Feb 16:22:56 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:22:56 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:22:58 - Player has disconnected: 884018268156467747
+   [36minfo  -[39m handshake authorized 2599973001378386750
+6 Feb 16:22:58 - New player has connected: 2599973001378386750
+6 Feb 16:22:58 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:22:58 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:23:01 - Player has disconnected: 2599973001378386750
+   [36minfo  -[39m handshake authorized 156413591156517462
+6 Feb 16:23:01 - New player has connected: 156413591156517462
+6 Feb 16:23:01 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:23:01 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:23:02 - Player has disconnected: 156413591156517462
+   [36minfo  -[39m handshake authorized 6931707331435117800
+6 Feb 16:23:02 - New player has connected: 6931707331435117800
+6 Feb 16:23:02 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:23:02 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:23:02 - Player has disconnected: 6931707331435117800
+   [36minfo  -[39m handshake authorized 3900614072110252504
+6 Feb 16:23:03 - New player has connected: 3900614072110252504
+6 Feb 16:23:03 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:23:03 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:23:03 - Player has disconnected: 3900614072110252504
+   [36minfo  -[39m handshake authorized 27687599816972003
+6 Feb 16:23:03 - New player has connected: 27687599816972003
+6 Feb 16:23:03 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:23:03 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:23:04 - Player has disconnected: 27687599816972003
+   [36minfo  -[39m handshake authorized 5241302701917470156
+6 Feb 16:23:04 - New player has connected: 5241302701917470156
+6 Feb 16:23:04 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:23:04 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:23:05 - Player has disconnected: 5241302701917470156
+   [36minfo  -[39m handshake authorized 537378348147662162
+6 Feb 16:23:05 - New player has connected: 537378348147662162
+6 Feb 16:23:05 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:23:05 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 197869136882288378
+6 Feb 16:25:05 - New player has connected: 197869136882288378
+6 Feb 16:25:05 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:25:05 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+6 Feb 16:39:29 - Player has disconnected: 197869136882288378
+   [36minfo  -[39m handshake authorized 112009679797512869
+6 Feb 16:39:30 - New player has connected: 112009679797512869
+6 Feb 16:39:30 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:39:30 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1084009693659020643
+6 Feb 16:40:09 - New player has connected: 1084009693659020643
+6 Feb 16:40:09 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+6 Feb 16:40:09 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 12665443651746134025
+21 Apr 10:31:45 - New player has connected: 12665443651746134025
+21 Apr 10:31:45 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+21 Apr 10:31:45 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+21 Apr 10:31:54 - Player has disconnected: 12665443651746134025
+   [36minfo  -[39m handshake authorized 2146382988203463699
+21 Apr 10:31:54 - New player has connected: 2146382988203463699
+21 Apr 10:31:54 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+21 Apr 10:31:54 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+21 Apr 10:32:06 - Player has disconnected: 2146382988203463699
+   [36minfo  -[39m handshake authorized 16793687961690606333
+21 Apr 10:32:06 - New player has connected: 16793687961690606333
+21 Apr 10:32:06 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+21 Apr 10:32:06 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 15629865611066977967
+29 May 20:37:06 - New player has connected: 15629865611066977967
+29 May 20:37:06 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 May 20:37:06 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 May 20:39:33 - Player has disconnected: 15629865611066977967
+   [36minfo  -[39m handshake authorized 801307171383101624
+29 May 20:55:53 - New player has connected: 801307171383101624
+29 May 20:55:53 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+29 May 20:55:53 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+29 May 20:55:56 - Player has disconnected: 801307171383101624
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 6741552741164516639
+31 May 16:03:57 - New player has connected: 6741552741164516639
+31 May 16:03:57 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+31 May 16:03:57 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m transport end
+31 May 16:05:13 - Player has disconnected: 6741552741164516639
+   [36minfo  -[39m handshake authorized 814776856342492589
+31 May 16:05:13 - New player has connected: 814776856342492589
+31 May 16:05:13 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+31 May 16:05:13 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 1508625582750599079
+31 May 16:07:36 - New player has connected: 1508625582750599079
+31 May 16:07:36 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+31 May 16:07:36 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 8937890239766878
+31 May 16:11:44 - New player has connected: 8937890239766878
+31 May 16:11:44 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+31 May 16:11:44 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
+   [36minfo  -[39m socket.io started
+   [36minfo  -[39m handshake authorized 680801562468683311
+31 May 16:11:54 - New player has connected: 680801562468683311
+31 May 16:11:54 - { typeIndex: 1, type: { name: 'connect', args: [] }, args: {} }
+31 May 16:11:54 - { typeIndex: 3, type: { name: 'join', args: [] }, args: {} }
