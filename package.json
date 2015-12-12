@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "forever app/client & forever app/server",
+    "start": "pm2 start processes.json --no-daemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

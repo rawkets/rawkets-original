@@ -1,8 +1,10 @@
+# TODO: Pull in Rawkets source files from somewhere for the volume link, rather # than manually having to move them to the server each time
+
 FROM node:latest
 
 RUN mkdir /src
 
-RUN npm install forever -g
+RUN npm install -g pm2@latest
 
 WORKDIR /src
 ADD package.json /src/package.json

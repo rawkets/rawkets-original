@@ -1,0 +1,16 @@
+// http://pm2.keymetrics.io/docs/usage/application-declaration/
+{
+  "apps" : [{
+    "name"        : "client",
+    "script"      : "app/client",
+    "env": {
+        "NODE_ENV": "production"
+    }
+  },{
+    "name"       : "server",
+    "script"     : "app/server",
+    "env": {
+        "NODE_ENV": "production"
+    }
+  }]
+}

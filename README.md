@@ -1,5 +1,17 @@
 # Rawkets
 
+## Test locally
+
+Install dependencies and start the game client and server:
+
+```bash
+npm install
+npm start
+```
+
+Then open the game in your browser at [http://localhost:3000](http://localhost:3000)
+
+
 ## Set up Docker and run Rawkets container
 
 First you'll need to [install Docker](https://www.docker.com/) and then run the following from the terminal:
@@ -8,6 +20,7 @@ First you'll need to [install Docker](https://www.docker.com/) and then run the 
 $ docker-compose build
 $ docker-compose up
 ```
+
 
 ## Find Docker IP and play the game
 
