@@ -7,7 +7,11 @@ RUN mkdir /src
 RUN npm install -g pm2@latest
 
 WORKDIR /src
-ADD package.json /src/package.json
+
+COPY ./app /src/app
+COPY package.json /src/package.json
+COPY processes.json /src/processes.json
+
 RUN npm install
 
 EXPOSE 80

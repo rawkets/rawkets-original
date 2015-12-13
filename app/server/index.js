@@ -948,8 +948,8 @@ function unqueueIncomingMessages(msgQueue) {
 					sendPing(client);
 					break;
 				case MESSAGE_TYPE_ENABLE_PLAYER_KEY:
-					// console.log("Enable key: ", msg.k);
 					player = playerById(client.id);
+          // console.log("[" + client.id + "] Enable key: ", msg.k);
 					if (player) {
 						switch (msg.k) {
 							case 32: // Space
@@ -974,8 +974,8 @@ function unqueueIncomingMessages(msgQueue) {
 					};
 					break;
 				case MESSAGE_TYPE_DISABLE_PLAYER_KEY:
-					//console.log("Disable key: ", msg.key);
 					player = playerById(client.id);
+          // console.log("[" + client.id + "] Disable key: ", msg.k);
 					if (player) {
 						switch (msg.k) {
 							case 32: // Space
