@@ -1,5 +1,7 @@
 # Rawkets
 
+![](http://cl.ly/1e361H3O3r2F/Screen%20Shot%202015-12-11%20at%2020.13.39.png)
+
 ## Test locally
 
 Install dependencies and start the game client and server:
