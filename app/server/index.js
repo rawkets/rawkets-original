@@ -577,7 +577,7 @@ function update() {
 
 					io.emit("message", formatMessage(MESSAGE_TYPE_NEW_BULLET, {id: id, x: Math.floor(bullet.currentState.pos.x), y: Math.floor(bullet.currentState.pos.y), a: player.currentState.angle}));
 
-					setBulletTimer(players[i].id);
+					setBulletTimer(players.id);
 				};
 
 				if (player.currentState.currentKeys.mine && player.weaponsHotMine && player.mineCount < 3) {
@@ -596,7 +596,7 @@ function update() {
 
 					io.emit("message", formatMessage(MESSAGE_TYPE_NEW_MINE, {id: id, pid: player.id, x: Math.floor(mine.currentState.pos.x), y: Math.floor(mine.currentState.pos.y)}));
 
-					setMineTimer(players[i].id);
+					setMineTimer(player.id);
 				};
 			};
 
