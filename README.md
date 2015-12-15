@@ -7,8 +7,8 @@
 Install dependencies and start the game client and server:
 
 ```bash
-npm install
-npm start
+$ npm install
+$ npm start
 ```
 
 Then open the game in your browser at [http://localhost:3000](http://localhost:3000)
@@ -29,7 +29,7 @@ $ docker-compose up
 Change `default` to the name of your Docker image &ndash; if you've only just set up Docker then using `default` may be ok.
 
 ```bash
-docker-machine ip default
+$ docker-machine ip default
 ```
 
 Load the given IP in your favourite browser.
